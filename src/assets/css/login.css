@@ -5,7 +5,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: white;
+  /* background-color: white; */
+  background-image: url(../../../public/bg.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .login__main img {
@@ -19,6 +23,9 @@
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
+  background-color: #00000063;
+  color: white;
+  backdrop-filter: blur(5px);
 }
 
 .input_style {
