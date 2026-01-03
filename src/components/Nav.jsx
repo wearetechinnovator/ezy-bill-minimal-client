@@ -62,7 +62,7 @@ const Nav = ({ title }) => {
 
   const logout = () => {
     Cookies.remove("token");
-    document.location.href = "/admin";
+    document.location.href = "/";
   }
 
 

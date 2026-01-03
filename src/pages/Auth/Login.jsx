@@ -82,7 +82,7 @@ const Login = () => {
             Sign in
           </button>
         </form>
-        <div className='flex justify-center text-[12px]'>
+        {/* <div className='flex justify-center text-[12px]'>
           You have no account?
           <Link to={'/admin/signup'} className="ml-1">
             SignUp
@@ -90,7 +90,7 @@ const Login = () => {
         </div>
         <div className='flex justify-center mt-2 text-[12px]'>
           <Link to={'/admin/forget'}>Forgot password</Link>
-        </div>
+        </div> */}
       </div>
     </main>
   )
