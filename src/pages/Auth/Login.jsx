@@ -5,7 +5,6 @@ import useLoginShake from "../../hooks/useLoginShake";
 import { useNavigate } from 'react-router-dom';
 import useMyToaster from "../../hooks/useMyToaster";
 import Cookies from 'js-cookie';
-import { Link } from 'react-router-dom';
 import Loading from '../../components/Loading'
 
 
@@ -63,7 +62,7 @@ const Login = () => {
     <main className='login__main'>
       <img src={Logo} alt="Logo.png" className='mb-5' />
       <div className="login__box flex flex-col" id="loginBox">
-        <h1 className='text-center text-[25px] mb-8 mt-4'>Sign In</h1>
+        <h1 className='text-center text-[25px] mb-8 mt-4 text-white'>Sign In</h1>
         <form onSubmit={formAction}>
           <input type="emial" name="email"
             value={loginData.email}
