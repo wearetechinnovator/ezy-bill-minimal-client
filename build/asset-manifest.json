@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7f92156c.css",
-    "main.js": "/static/js/main.b1076853.js",
+    "main.js": "/static/js/main.65347326.js",
     "static/css/4537.5943b06d.chunk.css": "/static/css/4537.5943b06d.chunk.css",
     "static/js/4537.b8e37f32.chunk.js": "/static/js/4537.b8e37f32.chunk.js",
     "static/js/4941.fc5c12f8.chunk.js": "/static/js/4941.fc5c12f8.chunk.js",
@@ -74,13 +74,13 @@
     "static/js/1355.f2b2f6dc.chunk.js": "/static/js/1355.f2b2f6dc.chunk.js",
     "static/js/6178.a4352861.chunk.js": "/static/js/6178.a4352861.chunk.js",
     "static/js/1391.3263c523.chunk.js": "/static/js/1391.3263c523.chunk.js",
-    "static/js/9771.f4f88c29.chunk.js": "/static/js/9771.f4f88c29.chunk.js",
+    "static/js/9771.da367d67.chunk.js": "/static/js/9771.da367d67.chunk.js",
     "static/media/bg.jpg": "/static/media/bg.ab27fed0cfe70470664a.jpg",
     "static/media/logo.png": "/static/media/logo.fad19e63cefd8737e978.png",
     "static/media/norecord.svg": "/static/media/norecord.048751373b74c78a9b0413a800412fa9.svg",
     "index.html": "/index.html",
     "main.7f92156c.css.map": "/static/css/main.7f92156c.css.map",
-    "main.b1076853.js.map": "/static/js/main.b1076853.js.map",
+    "main.65347326.js.map": "/static/js/main.65347326.js.map",
     "4537.5943b06d.chunk.css.map": "/static/css/4537.5943b06d.chunk.css.map",
     "4537.b8e37f32.chunk.js.map": "/static/js/4537.b8e37f32.chunk.js.map",
     "4941.fc5c12f8.chunk.js.map": "/static/js/4941.fc5c12f8.chunk.js.map",
@@ -153,10 +153,10 @@
     "1355.f2b2f6dc.chunk.js.map": "/static/js/1355.f2b2f6dc.chunk.js.map",
     "6178.a4352861.chunk.js.map": "/static/js/6178.a4352861.chunk.js.map",
     "1391.3263c523.chunk.js.map": "/static/js/1391.3263c523.chunk.js.map",
-    "9771.f4f88c29.chunk.js.map": "/static/js/9771.f4f88c29.chunk.js.map"
+    "9771.da367d67.chunk.js.map": "/static/js/9771.da367d67.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7f92156c.css",
-    "static/js/main.b1076853.js"
+    "static/js/main.65347326.js"
   ]
 }

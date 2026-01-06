@@ -1,17 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import Nav from '../../components/Nav';
-import SideNav from '../../components/SideNav'
-import { useRef } from 'react';
-import { Editor } from '@tinymce/tinymce-react';
-import { FaRegCheckCircle } from "react-icons/fa";
-import { LuRefreshCcw } from "react-icons/lu";
-import { CgPlayListAdd } from "react-icons/cg";
+import SideNav from '../../components/SideNav';
 import useMyToaster from '../../hooks/useMyToaster';
 import { SelectPicker } from 'rsuite';
 import Cookies from 'js-cookie';
 import { useNavigate, useParams } from 'react-router-dom';
 import useApi from '../../hooks/useApi';
-import { RiDeleteBin6Line } from 'react-icons/ri';
 import MySelect2 from '../../components/MySelect2';
 import { Icons } from '../../helper/icons';
 
@@ -339,17 +333,19 @@ const AddItemComponent = ({ mode, save, getRes }) => {
                   }} value={u.alert} />
                 </td>
                 <td align='center' className='p-1'>
-                  <div className='delete__icon'>
-                    <Icons.DELETE
-                      className='cursor-pointer text-[16px]'
-                      onClick={() => {
-                        if (unitRow.length === 1) return;
-                        const newUnitRow = [...unitRow];
-                        newUnitRow.splice(i, 1);
-                        setUnitRow(newUnitRow);
-                      }}
-                    />
-                  </div>
+                  {
+                    i !== 0 && <div className='delete__icon'>
+                      <Icons.DELETE
+                        className='cursor-pointer text-[16px]'
+                        onClick={() => {
+                          if (unitRow.length === 1) return;
+                          const newUnitRow = [...unitRow];
+                          newUnitRow.splice(i, 1);
+                          setUnitRow(newUnitRow);
+                        }}
+                      />
+                    </div>
+                  }
                 </td>
               </tr>
             ))}
